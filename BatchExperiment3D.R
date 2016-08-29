@@ -377,7 +377,7 @@ addAlgorithm(reg, id = "sampledboosting", fun = sampledboosting.wrapper)
 
 
 # Define problem parameters:
-pars = list(simulations = 100, predictors = 8000)
+pars = list(simulations = 200, predictors = 8000)
 mytest3D.design = makeDesign("mytest3D", exhaustive = pars)
 
 # Define sampledboosting parameters:
